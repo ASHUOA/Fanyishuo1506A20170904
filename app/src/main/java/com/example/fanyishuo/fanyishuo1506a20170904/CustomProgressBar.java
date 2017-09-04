@@ -47,6 +47,7 @@ public class CustomProgressBar extends View {
 
     public CustomProgressBar(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        //找到布局
         TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.CustomProgressBar, defStyleAttr, 0);
         int n = a.getIndexCount();
 
